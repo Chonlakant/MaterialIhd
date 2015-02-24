@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="#f6f0f0"
+    android:layout_weight="1"
+    android:layout_width="400dp"
+    android:layout_height="290dp" >
+
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:paddingBottom="3dp" />
+
+    <TextView
+        android:id="@+id/text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/image"
+        android:paddingTop="5dp"
+        android:text="chonlakant"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:background="#f6f0f0"
+        android:id="@+id/linearLayout1"
+        android:layout_width="370dp"
+        android:layout_height="70dp"
+        android:layout_weight="1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/image"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:baselineAligned="false">
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:textColor="#ffffff"
+            android:visibility="visible"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/btnShare"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Share"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1" />
+
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Close"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"  />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="fill_parent">
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="ca-app-pub-1640846146810179/9541873840" >
+    </com.google.android.gms.ads.AdView>
+
+
+</RelativeLayout>

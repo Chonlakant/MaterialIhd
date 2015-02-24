@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2014 Yuki Anzai anzai.y.aa@gmail.com
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+    <plurals name="day">
+        <item quantity="one">day</item>
+        <item quantity="other">days</item>
+    </plurals>
+    <plurals name="hour">
+        <item quantity="one">hour</item>
+        <item quantity="other">hours</item>
+    </plurals>
+    <plurals name="hour_short">
+        <item quantity="one">hr</item>
+        <item quantity="other">hrs</item>
+    </plurals>
+    <plurals name="minute">
+        <item quantity="one">minute</item>
+        <item quantity="other">minutes</item>
+    </plurals>
+    <plurals name="minute_short">
+        <item quantity="one">min</item>
+        <item quantity="other">mins</item>
+    </plurals>
+
+    <string name="app_name">IHD ดูหนังฟรี</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_browser">Open in browser</string>
+    <string name="action_imdb">Open in IMDB</string>
+    <string name="action_yts">Open in Yts</string>
+    <string name="action_subtitles">Subtitles</string>
+    <string name="action_trailer">Trailer</string>
+    <string name="action_torrent">Download torrent</string>
+    <string name="action_share">Share</string>
+    <string name="action_search">Search</string>
+    <string name="dialog_torrent">Choose a quality</string>
+
+    <string name="tab_latest">Latest</string>
+    <string name="tab_popular">Popular</string>
+    <string name="tab_upcoming">Upcoming</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navdrawer_item_home">Home</string>
+    <string name="navdrawer_item_search">Search</string>
+    <string name="navdrawer_item_requests">Requests</string>
+    <string name="navdrawer_item_settings">Settings</string>
+
+    <string name="offline">Connect to a network, then try again.</string>
+    <string name="movies_empty">There is no movies to show.</string>
+    <string name="movies_details_empty">The movie details has failed to load. Please try again.</string>
+    <string name="detailsRunTime">Runtime</string>
+    <string name="detailsCertification">Certification</string>
+    <string name="detailsRating">Rating</string>
+    <string name="stringNA">N/A</string>
+
+    <string name="search_hint">Search</string>
+    <string name="no_results_found">No results found</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="pref_notifications_title">Notifications</string>
+    <string name="pref_title_enable_notifications">Notify me about new movies</string>
+    <string name="pref_summary_enable_notifications">Receive notifications when new movies are uploaded on Yts site.</string>
+    <string name="pref_about_title">About</string>
+    <string name="pref_title_open_source_licenses">Open source licenses</string>
+    <string name="pref_summary_open_source_licenses">License details about used open-source software.</string>
+    <string name="pref_title_yts_api">Powered by Yts API</string>
+    <string name="pref_summary_yts_api">This App uses the Yts API.</string>
+    <string name="pref_title_trakt_api">Powered by Trakt.tv API</string>
+    <string name="pref_summary_trakt_api">This App uses the Trakt.tv API.</string>
+    <string name="pref_title_app_website">App Website</string>
+    <string name="pref_title_check_for_update">Check for Update</string>
+    <string name="pref_title_changelog">Changelog</string>
+    <string name="pref_title_version">App version</string>
+    <string name="pref_summary_version">v1.0.0</string>
+    <string name="ok">OK</string>
+    <string name="drawer_open">open drawer</string>
+    <string name="drawer_close">close drawer</string>
+</resources>

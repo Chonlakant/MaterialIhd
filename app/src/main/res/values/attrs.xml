@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ScrimInsetsView">
+        <attr name="insetForeground" format="reference|color" />
+    </declare-styleable>
+    <bool name="fitsSystemWindows">false</bool>
+    <dimen name="topMargin">0dp</dimen>
+    <dimen name="topMarginLand">0dp</dimen>
+    <color name="inset">#0000</color>
+    <color name="colorPrimaryDark">#C00000</color>
+
+    <declare-styleable name="BaseTheme">
+        <attr name="actionBarIconColor" format="color" />
+        <attr name="actionBarInsetStart" format="dimension" />
+        <attr name="spinnerBarInsetStart" format="dimension" />
+        <attr name="popupItemBackground" format="reference" />
+        <attr name="photoItemForeground" format="reference" />
+        <attr name="photoItemForegroundBorderless" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="MultiSwipeRefreshLayout">
+        <attr name="foreground" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ExpandingTextView">
+        <attr name="expanded" format="boolean|reference" />
+        <attr name="collapsed_maxLines" format="integer|reference" />
+    </declare-styleable>
+</resources>

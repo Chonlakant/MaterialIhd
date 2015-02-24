@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_primary">#14e715</color>
+    <color name="color_primary_dark">#12c700</color>
+    <color name="primary_text">#fff</color>
+    <color name="accent">#14e715</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="windowBackgroundColor">#ff222222</color>
+    <color name="black_translucent">#80000000</color>
+
+    <color name="tab_background">#ff222222</color>
+    <color name="tab_selected_strip">#14e715</color>
+
+    <color name="navdrawer_background">#ff1c1c1c</color>
+    <color name="navdrawer_separator">#26ffffff</color>
+
+    <color name="refresh_progress_1">#14e715</color>
+    <color name="refresh_progress_2">#12c700</color>
+    <color name="refresh_progress_3">#194706</color>
+
+    <color name="text_dim">#80bebebe</color>
+    <color name="text_color_default">#000000</color>
+
+    <color name="card_background_dark">#292929</color>
+
+
+
+
+
+
+
+    <!--Texts-->
+    <array name="texts_white">
+        <item>@color/md_text_white</item>
+        <item>@color/md_secondary_text_icons_white</item>
+        <item>@color/md_disabled_hint_text_white</item>
+        <item>@color/md_divider_white</item>
+    </array>
+    <color name="md_text_white">#ffffffff</color>
+    <color name="md_secondary_text_icons_white">#b3ffffff</color>
+    <color name="md_disabled_hint_text_white">#4dffffff</color>
+    <color name="md_divider_white">#1fffffff</color>
+
+</resources>
