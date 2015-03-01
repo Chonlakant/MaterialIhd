@@ -39,6 +39,8 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 import net.com.io.ihd.R;
+import net.com.io.ihd.fragment.FragmentLatest;
+import net.com.io.ihd.fragment.FragmentPopular;
 import net.com.io.ihd.fragment.FragmentUpdate;
 import net.yanzm.mth.MaterialTabHost;
 
@@ -130,9 +132,9 @@ public class SampleActivity extends ActionBarActivity {
                 case 0:
                     return new FragmentUpdate();
                 case 1:
-                    return new FragmentUpdate();
+                    return new FragmentPopular();
                 case 2:
-                    return new FragmentUpdate();
+                    return new FragmentLatest();
 
             }
             return null;

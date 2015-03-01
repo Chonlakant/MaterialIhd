@@ -21,7 +21,7 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
-            android:background="#FDD922"
+            android:background="#f9ea32"
             android:elevation="8dp"
             app:popupTheme="@style/ThemeOverlay.AppCompat.Light" />
 
@@ -42,10 +42,11 @@
 
     <net.com.io.ihd.widget.ScrimInsetsFrameLayout xmlns:app="http://schemas.android.com/apk/res-auto"
         android:id="@+id/scrimInsetsFrameLayout"
+
         android:layout_width="300dp"
         android:layout_height="match_parent"
         android:layout_gravity="start"
-        android:background="@android:color/white"
+        android:background="#000000"
         android:clickable="true"
         android:elevation="10dp"
         android:fitsSystemWindows="true"

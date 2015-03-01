@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Ihdmovie.iml" filepath="$PROJECT_DIR$/Ihdmovie.iml" />
       <module fileurl="file://$PROJECT_DIR$/library/Library.iml" filepath="$PROJECT_DIR$/library/Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/Library.iml" filepath="$PROJECT_DIR$/library/Library.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaterialZaMovie.iml" filepath="$PROJECT_DIR$/MaterialZaMovie.iml" />
       <module fileurl="file://$PROJECT_DIR$/mth/app.iml" filepath="$PROJECT_DIR$/mth/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/mth/mth.iml" filepath="$PROJECT_DIR$/mth/mth.iml" />

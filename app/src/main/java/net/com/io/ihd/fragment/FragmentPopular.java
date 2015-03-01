@@ -1,4 +1,5 @@
 package net.com.io.ihd.fragment;
+
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
@@ -36,8 +37,8 @@ import org.json.JSONObject;
 
 import java.util.ArrayList;
 
-public class FragmentUpdate extends Fragment {
-    String url = "http://ihdmovie.xyz/root/api_movie/get_movie2.php?uid=1&cat=2";
+public class FragmentPopular extends Fragment {
+    String url = "http://ihdmovie.xyz/root/api_movie/get_movie2.php?uid=1&cat=1";
     AdapterMovie adapterMovie;
     GridView gridView;
     Context context;
